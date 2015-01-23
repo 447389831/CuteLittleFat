@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D61D99351A6129F800C334B7 /* SquatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61D99341A6129F800C334B7 /* SquatViewController.swift */; };
+		D61D99371A612A2B00C334B7 /* SitUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61D99361A612A2B00C334B7 /* SitUpViewController.swift */; };
+		D64B59B71A62246B00FBE2FE /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B59B61A62246B00FBE2FE /* MainNavigationViewController.swift */; };
+		D678F5801A5A9F970019F71D /* PushUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678F57F1A5A9F970019F71D /* PushUp.swift */; };
+		D6932E651A61788A00D527FC /* SitUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6932E641A61788A00D527FC /* SitUp.swift */; };
+		D6932E671A61788A00D527FC /* Squat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6932E661A61788A00D527FC /* Squat.swift */; };
 		D6C8ED361A56A5820020F8C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8ED351A56A5820020F8C7 /* AppDelegate.swift */; };
 		D6C8ED391A56A5820020F8C7 /* CuteLittleFat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6C8ED371A56A5820020F8C7 /* CuteLittleFat.xcdatamodeld */; };
-		D6C8ED3B1A56A5820020F8C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8ED3A1A56A5820020F8C7 /* ViewController.swift */; };
 		D6C8ED3E1A56A5820020F8C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C8ED3C1A56A5820020F8C7 /* Main.storyboard */; };
 		D6C8ED401A56A5830020F8C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C8ED3F1A56A5830020F8C7 /* Images.xcassets */; };
 		D6C8ED431A56A5830020F8C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C8ED411A56A5830020F8C7 /* LaunchScreen.xib */; };
 		D6C8ED4F1A56A5830020F8C7 /* CuteLittleFatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8ED4E1A56A5830020F8C7 /* CuteLittleFatTests.swift */; };
+		D6C8ED591A56AE110020F8C7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8ED581A56AE110020F8C7 /* MainTabBarController.swift */; };
+		D6C8ED5C1A56B0740020F8C7 /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8ED5B1A56B0740020F8C7 /* TrainViewController.swift */; };
+		D6C8ED5E1A56B0880020F8C7 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8ED5D1A56B0880020F8C7 /* HistoryViewController.swift */; };
+		D6D5B0B51A5A85A700707BB1 /* PushUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D5B0B41A5A85A700707BB1 /* PushUpViewController.swift */; };
+		D6D5B0BB1A5A94B300707BB1 /* PushUpCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D5B0BA1A5A94B300707BB1 /* PushUpCoreDataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +37,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D61D99341A6129F800C334B7 /* SquatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquatViewController.swift; path = Classes/ViewControllers/SquatViewController.swift; sourceTree = "<group>"; };
+		D61D99361A612A2B00C334B7 /* SitUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SitUpViewController.swift; path = Classes/ViewControllers/SitUpViewController.swift; sourceTree = "<group>"; };
+		D64B59B61A62246B00FBE2FE /* MainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavigationViewController.swift; path = Classes/MainNavigationViewController.swift; sourceTree = "<group>"; };
+		D678F57F1A5A9F970019F71D /* PushUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushUp.swift; path = Classes/Entities/PushUp.swift; sourceTree = "<group>"; };
+		D6932E641A61788A00D527FC /* SitUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SitUp.swift; path = Classes/Entities/SitUp.swift; sourceTree = "<group>"; };
+		D6932E661A61788A00D527FC /* Squat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Squat.swift; path = Classes/Entities/Squat.swift; sourceTree = "<group>"; };
 		D6C8ED301A56A5820020F8C7 /* CuteLittleFat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuteLittleFat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C8ED341A56A5820020F8C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6C8ED351A56A5820020F8C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6C8ED381A56A5820020F8C7 /* CuteLittleFat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CuteLittleFat.xcdatamodel; sourceTree = "<group>"; };
-		D6C8ED3A1A56A5820020F8C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6C8ED3D1A56A5820020F8C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6C8ED3F1A56A5830020F8C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D6C8ED421A56A5830020F8C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D6C8ED481A56A5830020F8C7 /* CuteLittleFatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuteLittleFatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C8ED4D1A56A5830020F8C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6C8ED4E1A56A5830020F8C7 /* CuteLittleFatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuteLittleFatTests.swift; sourceTree = "<group>"; };
+		D6C8ED581A56AE110020F8C7 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBarController.swift; path = Classes/MainTabBarController.swift; sourceTree = "<group>"; };
+		D6C8ED5B1A56B0740020F8C7 /* TrainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrainViewController.swift; path = Classes/ViewControllers/TrainViewController.swift; sourceTree = "<group>"; };
+		D6C8ED5D1A56B0880020F8C7 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryViewController.swift; path = Classes/ViewControllers/HistoryViewController.swift; sourceTree = "<group>"; };
+		D6D5B0B41A5A85A700707BB1 /* PushUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushUpViewController.swift; path = Classes/ViewControllers/PushUpViewController.swift; sourceTree = "<group>"; };
+		D6D5B0BA1A5A94B300707BB1 /* PushUpCoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushUpCoreDataHelper.swift; path = Classes/CoreDataHelpers/PushUpCoreDataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D61D992F1A60FFB800C334B7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		D6C8ED271A56A5820020F8C7 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +106,11 @@
 		D6C8ED321A56A5820020F8C7 /* CuteLittleFat */ = {
 			isa = PBXGroup;
 			children = (
+				D61D992F1A60FFB800C334B7 /* Tools */,
+				D6D5B0B81A5A943400707BB1 /* Entities */,
+				D6D5B0B61A5A93A000707BB1 /* CoreDataHelpers */,
+				D6C8ED5A1A56AFCD0020F8C7 /* ViewControllers */,
 				D6C8ED351A56A5820020F8C7 /* AppDelegate.swift */,
-				D6C8ED3A1A56A5820020F8C7 /* ViewController.swift */,
 				D6C8ED3C1A56A5820020F8C7 /* Main.storyboard */,
 				D6C8ED3F1A56A5830020F8C7 /* Images.xcassets */,
 				D6C8ED411A56A5830020F8C7 /* LaunchScreen.xib */,
@@ -113,6 +143,38 @@
 				D6C8ED4D1A56A5830020F8C7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6C8ED5A1A56AFCD0020F8C7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8ED581A56AE110020F8C7 /* MainTabBarController.swift */,
+				D6C8ED5B1A56B0740020F8C7 /* TrainViewController.swift */,
+				D6C8ED5D1A56B0880020F8C7 /* HistoryViewController.swift */,
+				D6D5B0B41A5A85A700707BB1 /* PushUpViewController.swift */,
+				D61D99341A6129F800C334B7 /* SquatViewController.swift */,
+				D61D99361A612A2B00C334B7 /* SitUpViewController.swift */,
+				D64B59B61A62246B00FBE2FE /* MainNavigationViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D6D5B0B61A5A93A000707BB1 /* CoreDataHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				D6D5B0BA1A5A94B300707BB1 /* PushUpCoreDataHelper.swift */,
+			);
+			name = CoreDataHelpers;
+			sourceTree = "<group>";
+		};
+		D6D5B0B81A5A943400707BB1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D6932E661A61788A00D527FC /* Squat.swift */,
+				D6932E641A61788A00D527FC /* SitUp.swift */,
+				D678F57F1A5A9F970019F71D /* PushUp.swift */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +277,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C8ED3B1A56A5820020F8C7 /* ViewController.swift in Sources */,
+				D64B59B71A62246B00FBE2FE /* MainNavigationViewController.swift in Sources */,
 				D6C8ED391A56A5820020F8C7 /* CuteLittleFat.xcdatamodeld in Sources */,
+				D6C8ED5C1A56B0740020F8C7 /* TrainViewController.swift in Sources */,
 				D6C8ED361A56A5820020F8C7 /* AppDelegate.swift in Sources */,
+				D6C8ED5E1A56B0880020F8C7 /* HistoryViewController.swift in Sources */,
+				D61D99371A612A2B00C334B7 /* SitUpViewController.swift in Sources */,
+				D678F5801A5A9F970019F71D /* PushUp.swift in Sources */,
+				D6C8ED591A56AE110020F8C7 /* MainTabBarController.swift in Sources */,
+				D6D5B0BB1A5A94B300707BB1 /* PushUpCoreDataHelper.swift in Sources */,
+				D6932E671A61788A00D527FC /* Squat.swift in Sources */,
+				D6932E651A61788A00D527FC /* SitUp.swift in Sources */,
+				D6D5B0B51A5A85A700707BB1 /* PushUpViewController.swift in Sources */,
+				D61D99351A6129F800C334B7 /* SquatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +481,7 @@
 				D6C8ED541A56A5830020F8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6C8ED551A56A5830020F8C7 /* Build configuration list for PBXNativeTarget "CuteLittleFatTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +490,7 @@
 				D6C8ED571A56A5830020F8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
