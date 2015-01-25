@@ -10,6 +10,8 @@
 		D61D99351A6129F800C334B7 /* SquatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61D99341A6129F800C334B7 /* SquatViewController.swift */; };
 		D61D99371A612A2B00C334B7 /* SitUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61D99361A612A2B00C334B7 /* SitUpViewController.swift */; };
 		D64B59B71A62246B00FBE2FE /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B59B61A62246B00FBE2FE /* MainNavigationViewController.swift */; };
+		D668598F1A74A0E400685B9E /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668598E1A74A0E400685B9E /* IndexViewController.swift */; };
+		D66859911A74C9DD00685B9E /* MissonCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66859901A74C9DD00685B9E /* MissonCompleteViewController.swift */; };
 		D678F5801A5A9F970019F71D /* PushUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678F57F1A5A9F970019F71D /* PushUp.swift */; };
 		D6932E651A61788A00D527FC /* SitUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6932E641A61788A00D527FC /* SitUp.swift */; };
 		D6932E671A61788A00D527FC /* Squat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6932E661A61788A00D527FC /* Squat.swift */; };
@@ -40,6 +42,8 @@
 		D61D99341A6129F800C334B7 /* SquatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquatViewController.swift; path = Classes/ViewControllers/SquatViewController.swift; sourceTree = "<group>"; };
 		D61D99361A612A2B00C334B7 /* SitUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SitUpViewController.swift; path = Classes/ViewControllers/SitUpViewController.swift; sourceTree = "<group>"; };
 		D64B59B61A62246B00FBE2FE /* MainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavigationViewController.swift; path = Classes/MainNavigationViewController.swift; sourceTree = "<group>"; };
+		D668598E1A74A0E400685B9E /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndexViewController.swift; path = Classes/ViewControllers/IndexViewController.swift; sourceTree = "<group>"; };
+		D66859901A74C9DD00685B9E /* MissonCompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MissonCompleteViewController.swift; path = Classes/ViewControllers/MissonCompleteViewController.swift; sourceTree = "<group>"; };
 		D678F57F1A5A9F970019F71D /* PushUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushUp.swift; path = Classes/Entities/PushUp.swift; sourceTree = "<group>"; };
 		D6932E641A61788A00D527FC /* SitUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SitUp.swift; path = Classes/Entities/SitUp.swift; sourceTree = "<group>"; };
 		D6932E661A61788A00D527FC /* Squat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Squat.swift; path = Classes/Entities/Squat.swift; sourceTree = "<group>"; };
@@ -155,6 +159,8 @@
 				D61D99341A6129F800C334B7 /* SquatViewController.swift */,
 				D61D99361A612A2B00C334B7 /* SitUpViewController.swift */,
 				D64B59B61A62246B00FBE2FE /* MainNavigationViewController.swift */,
+				D668598E1A74A0E400685B9E /* IndexViewController.swift */,
+				D66859901A74C9DD00685B9E /* MissonCompleteViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -226,6 +232,7 @@
 				TargetAttributes = {
 					D6C8ED2F1A56A5820020F8C7 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = U548U8LFU9;
 					};
 					D6C8ED471A56A5830020F8C7 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -282,8 +289,10 @@
 				D6C8ED5C1A56B0740020F8C7 /* TrainViewController.swift in Sources */,
 				D6C8ED361A56A5820020F8C7 /* AppDelegate.swift in Sources */,
 				D6C8ED5E1A56B0880020F8C7 /* HistoryViewController.swift in Sources */,
+				D668598F1A74A0E400685B9E /* IndexViewController.swift in Sources */,
 				D61D99371A612A2B00C334B7 /* SitUpViewController.swift in Sources */,
 				D678F5801A5A9F970019F71D /* PushUp.swift in Sources */,
+				D66859911A74C9DD00685B9E /* MissonCompleteViewController.swift in Sources */,
 				D6C8ED591A56AE110020F8C7 /* MainTabBarController.swift in Sources */,
 				D6D5B0BB1A5A94B300707BB1 /* PushUpCoreDataHelper.swift in Sources */,
 				D6932E671A61788A00D527FC /* Squat.swift in Sources */,

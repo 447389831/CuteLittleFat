@@ -45,9 +45,10 @@ class PushUpViewController: UIViewController {
         
         NSLog("%d", helper.getPushUpCount())
         
-        
+        var device = UIDevice.currentDevice()
+        device.proximityMonitoringEnabled = false
         //跳转回主页
-        self.navigationController?.popToRootViewControllerAnimated(true)
+        //self.navigationController?.popToRootViewControllerAnimated(true)
     }
 
     /*
